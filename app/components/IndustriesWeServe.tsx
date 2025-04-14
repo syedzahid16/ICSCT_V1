@@ -83,7 +83,7 @@ export default function WhoWeServe() {
                 <div className="py-4">
                 {title2}
                 <span className="text-[#c132da]">{title3}</span>
-                <img src="/box2.svg" alt="Serve Icon" className="inline-block w-24 h-20 md:w-30 h-32 ml-2 pb-8 md:w-auto" />
+                <img src="/box2.svg" alt="Serve Icon" className="inline-block w-24 h-20 md:w-30 h-10 ml-2 pb-8 md:w-auto" />
                 </div>
             </motion.span>
           </motion.h1>

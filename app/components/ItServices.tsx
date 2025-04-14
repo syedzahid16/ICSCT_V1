@@ -159,7 +159,7 @@ export default function Services() {
                       <Card className="h-40 md:h-64 pt-4 rounded-2xl relative" style={{ backgroundImage: "url('/cybersecurity.jpeg')", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
                         <div className="absolute top-0 right-0 h-full w-full bg-[#0d0026] rounded-2xl opacity-30 z-0"></div>
                         <CardHeader className="relative z-10">
-                          <CardTitle className={`text-lg md:text-2xl font-bold text-white w-full md:w-52 ${language === 'ar' ? 'pt-12 md:w-full pt-24' : ''}`}>{services[2].title}</CardTitle>
+                          <CardTitle className={`text-lg md:text-2xl font-bold text-white w-full md:w-52 ${language === 'ar' ? 'pt-12 md:w-full pt-1' : ''}`}>{services[2].title}</CardTitle>
                           <div className={`h-2 mt-1 bg-gradient-to-r from-[#c132da] to-[#3e46db] ${language === 'ar' ? 'w-1/3 ml-auto' : 'w-1/5'}`}></div>
                           <CardDescription className={`text-sm md:text-lg font-normal text-white w-full md:w-52 ${language === 'ar' ? 'w-1/2 ml-auto md:w-1/2' : ''}`}>{services[2].description}</CardDescription>
                         </CardHeader>

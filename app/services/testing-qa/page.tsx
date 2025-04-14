@@ -237,12 +237,12 @@ export default function TestingQA() {
           className="w-full h-full object-cover shadow-lg" 
         />
                 <div className="absolute inset-0 flex items-center bg-black bg-opacity-50 rounded-lg">
-                <div className={`px-6 md:pl-32 text-white ${language === 'ar' ? 'md:ml-auto text-right md:pr-20' : ''}`}>
+                <div className={` pt-10 md:pl-32 text-white ${language === 'ar' ? 'md:ml-auto text-right md:pr-20' : ''}`}>
                 <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="text-4xl md:text-7xl pl-20 font-bold mb-4"
+                        className="text-3xl md:text-7xl pl-20 font-bold pr-2 mb-4"
                     >
                         {toptitle}
                         <div className={`${language === 'ar' ? 'ml-auto md:pr-20' : ''}`}>{toptitle1}</div>
@@ -251,7 +251,7 @@ export default function TestingQA() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className={"text-lg md:text-2xl pl-20 mb-8"+ (language === 'ar' ? ' md: pr-16 text-right' : '')}
+                        className={"text-lg md:text-2xl pl-20 mb-8"+ (language === 'ar' ? ' md: pr-2 text-right' : '')}
                         >
                         {topdescription}
                     </motion.p>

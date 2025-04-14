@@ -55,7 +55,7 @@ export default function MobileDevelopment() {
           suggest: "Best For: Startups, businesses with tight timelines or budgets, MVPs",
         },
         {
-          title: "Progressive Web Apps (PWA)",
+          title: "Progressive Web Apps (PMA)",
           description: "Fast, responsive, and installable from browsers—PWAs bridge the best of web and mobile.",
           tech: [
             {

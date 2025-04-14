@@ -39,7 +39,7 @@ export default function Contact() {
   const { title, description, name, email, message, submit, address, phone, emailAddress } = content[language]
 
   return (
-    <section>
+    <section className="overflow-hidden">
       <div id="hero-section" className="w-full h-[50vh] relative">
         <img 
           src="services/webdev.jpg" 
@@ -47,13 +47,13 @@ export default function Contact() {
           className="w-full h-full object-cover shadow-lg" 
         />
             <div className="absolute inset-0 pt-12 flex items-center">
-            <div className={`pl-32 text-white ${language === 'ar' ? 'ml-auto pr-20' : ''}`}>
-                    <motion.h1
+            <div className={`px-6 md:pl-32 text-white ${language === 'ar' ? 'ml-auto text-right md:pr-20' : ''}`}>
+            <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className={`text-7xl md:text-7xl font-bold mb-4 ${language === 'ar' ? ' pl-20' : ''}`}
-                    >
+                        className="text-4xl md:text-7xl font-bold mb-4"
+                        >
                         {title}
                         
                     </motion.h1>
