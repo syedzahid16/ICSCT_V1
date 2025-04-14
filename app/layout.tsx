@@ -37,7 +37,7 @@ const notoKufiArabic = Noto_Kufi_Arabic({
 export const metadata = {
   title: "ICSCT - Innovating Digital Transformation",
   description: "Empowering businesses with cutting-edge technology solutions",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -47,6 +47,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className={`${roboto.variable} ${notoKufiArabic.variable}`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <LanguageProvider>
@@ -61,6 +64,5 @@ export default function RootLayout({
     </html>
   )
 }
-
 
 import './globals.css'

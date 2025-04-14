@@ -1,7 +1,7 @@
 "use client"
 
 import { useLanguage } from "../contexts/LanguageContext"
-import { Button } from "@/components/ui/button"
+import { Button } from "../../components/ui/button"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import Image from "next/image"
@@ -57,7 +57,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <Button asChild size="lg" className="bg-white text-primary hover:bg-primary hover:text-white">
-              <Link href="/itservices">{cta}</Link>
+              <Link href="/services">{cta}</Link>
             </Button>
           </motion.div>
         </div>

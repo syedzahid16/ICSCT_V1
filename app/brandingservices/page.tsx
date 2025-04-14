@@ -2,8 +2,8 @@
 
 import { useLanguage } from "../contexts/LanguageContext"
 import { motion } from "framer-motion"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "../../components/ui/card"
+import { Button } from "../../components/ui/button"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import Image from "next/image"

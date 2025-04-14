@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";
 import { useLanguage } from "../contexts/LanguageContext";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";

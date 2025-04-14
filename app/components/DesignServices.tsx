@@ -2,7 +2,7 @@
 
 import { useLanguage } from "../contexts/LanguageContext";
 import { motion } from "framer-motion";
-import { Card, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle } from "../../components/ui/card";
 
 export default function Services() {
   const { language } = useLanguage();

@@ -1,7 +1,7 @@
 "use client"
 
 import { useLanguage } from "../contexts/LanguageContext"
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardDescription } from "../../components/ui/card"
 import { motion } from "framer-motion"
 import { Heading1 } from "lucide-react"
 

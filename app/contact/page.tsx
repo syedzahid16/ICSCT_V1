@@ -1,11 +1,11 @@
 "use client"
 
 import { useLanguage } from "../contexts/LanguageContext"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+import { Button } from "../../components/ui/button"
+import { Input } from "../../components/ui/input"
+import { Textarea } from "../../components/ui/textarea"
 import { motion } from "framer-motion"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card"
 import { Phone, Mail, MapPin } from "lucide-react"
 
 export default function Contact() {

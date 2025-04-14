@@ -1,7 +1,7 @@
 "use client"
 
 import { useLanguage } from "../contexts/LanguageContext"
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardDescription } from "../../components/ui/card"
 import { motion } from "framer-motion"
 
 export default function WhoWeServe() {
@@ -83,7 +83,7 @@ export default function WhoWeServe() {
                 <div className="py-4">
                 {title2}
                 <span className="text-[#c132da]">{title3}</span>
-                <img src="/box2.svg" alt="Serve Icon" className="inline-block w-24 h-20 md:w-30 h-10 ml-2 pb-8 md:w-auto" />
+                <img src="/box2.svg" alt="Serve Icon" className="inline-block w-24 h-30 md:w-64 md:h-30 ml-2 pb-4 md:pb-8" />
                 </div>
             </motion.span>
           </motion.h1>
